@@ -6,6 +6,7 @@ namespace StudyPlannerUI2
 {
     public class PlannerOptimizer
     {
+        //Implementation of the Weighted Entropy Heuristic
         private double CalculateEntropyWeight(TaskItem task)
         {
             return (task.Priority * 0.5) + (task.Difficulty * 0.3);
