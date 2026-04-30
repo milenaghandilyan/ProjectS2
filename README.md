@@ -1,17 +1,18 @@
 
-SmartPath: Smart Study & Exam Optimizer 🎓
+# SmartPath: Smart Study & Exam Optimizer 🎓
 
-SmartPath is a C#-based desktop application built with WPF (Windows Presentation Foundation). It is designed to help university students manage their academic workload using mathematical optimization. Instead of a basic to-do list, AuraPlan uses a **Weighted Entropy Heuristic** to rank your tasks by their true priority and impact on your semester.
+**SmartPath** is a C#-based desktop application built with WPF (Windows Presentation Foundation). It is designed to help university students manage their academic workload using mathematical optimization. Instead of a basic to-do list, SmartPath uses a **Weighted Entropy Heuristic** to rank your tasks by their true priority and impact on your semester.
 
-Prerequisites
+## 🛠️ Prerequisites
 To run this project, you need:
-1. Operating System: Windows 10 or 11 (Required for WPF).
-2. SDK:[.NET 8.0 SDK](https://dotnet.microsoft.com/download) (or higher).
+* **Operating System:** Windows 10 or 11 (Required for WPF).
+* **SDK:** [.NET 8.0 SDK](https://dotnet.microsoft.com/download) (or higher).
 
+---
 
-How to Run the Project
+## 🚀 How to Run the Project
 
-You can run SmartPath using either Visual Studio Code or the full Visual Studio 2022. Choose the method that fits your setup:
+You can run SmartPath using either **Visual Studio Code** or the full **Visual Studio 2022**. Choose the method that fits your setup:
 
 ### Option 1: Visual Studio 2022 (Recommended)
 This is the easiest method as it handles the UI designer and dependencies automatically.
@@ -49,11 +50,6 @@ Ideal for a lightweight experience using the command line.
 * **Framework:** .NET 8.0 Windows (WPF).
 * **Architecture:** Implements file-based storage and heuristic ranking algorithms.
 
-## 👥 Credits
-* **Developer:** Milena Ghandilyan
-* **Academic Mentor:** Gohar Zaprosyan
-* **Target Audience:** University Computer Science Students
-
 ---
 
 ### **Troubleshooting**
@@ -61,12 +57,3 @@ If you encounter a `CS0103` error (The name 'InitializeComponent' does not exist
 1. `dotnet clean`
 2. `dotnet build`
 3. `dotnet run`
-
----
-
-### **Final Checklist for You**
-1.  **Update GitHub:** Ensure you have "pushed" the updated `.csproj` file I gave you to your GitHub repository.
-2.  **Check Visibility:** Verify in your GitHub settings that the repository is **Public** so your classmates can access the link.
-
-Do you need help with the Git commands to push these final changes to your repository?
-```
