@@ -3,14 +3,14 @@
 
 **SmartPath** is a C#-based desktop application built with WPF (Windows Presentation Foundation). It is designed to help university students manage their academic workload using mathematical optimization. Instead of a basic to-do list, SmartPath uses a **Weighted Entropy Heuristic** to rank your tasks by their true priority and impact on your semester.
 
-## 🛠️ Prerequisites
+## Prerequisites
 To run this project, you need:
 * **Operating System:** Windows 10 or 11 (Required for WPF).
 * **SDK:** [.NET 8.0 SDK](https://dotnet.microsoft.com/download) (or higher).
 
 ---
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 You can run SmartPath using either **Visual Studio Code** or the full **Visual Studio 2022**. Choose the method that fits your setup:
 
@@ -37,7 +37,7 @@ Ideal for a lightweight experience using the command line.
 
 ---
 
-## 📖 Key Features
+## Key Features
 * **Multi-User System:** Secure login and registration for individual students.
 * **Intelligent Optimization:** Automatically ranks tasks based on the following heuristic:
   $$Weight = (Priority \times 0.5) + (Difficulty \times 0.3)$$
@@ -45,7 +45,7 @@ Ideal for a lightweight experience using the command line.
 
 ---
 
-## 🔬 Technical Details
+## Technical Details
 * **Language:** C#.
 * **Framework:** .NET 8.0 Windows (WPF).
 * **Architecture:** Implements file-based storage and heuristic ranking algorithms.
