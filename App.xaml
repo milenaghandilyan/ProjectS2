@@ -3,6 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:StudyPlannerUI2"
              StartupUri="MainWindow.xaml">
+<!-- 
+        Application Resources:
+        This is a global 'dictionary'. Anything defined here (colors, brushes, styles) 
+        can be accessed by any window or page in your entire project.
+    -->
     <Application.Resources>
          
     </Application.Resources>
