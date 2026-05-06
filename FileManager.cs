@@ -4,6 +4,8 @@ using System.IO;
 
 namespace StudyPlannerUI2
 {
+    // Handles saving and loading task data to local text files.
+    // Each user has their own dedicated storage file.
     public class FileManager
     {
         public void Save(List<TaskItem> tasks, string username)
@@ -18,6 +20,7 @@ namespace StudyPlannerUI2
             }
         }
 
+        // Reads the user's task file and reconstructs the TaskItem objects.
         public List<TaskItem> Load(string username)
         {
             string fileName = $"{username}_tasks.txt";
