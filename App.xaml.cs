@@ -8,7 +8,9 @@ using System.Windows;
 
 namespace StudyPlannerUI2
 {
-    
+
+    // Interaction logic for App.xaml.
+    // This is the "Main" entry point of your WPF application.
     public partial class App : Application
     {
     }
