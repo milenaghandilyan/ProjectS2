@@ -6,6 +6,7 @@
         WindowStartupLocation="CenterScreen">
 
     <Window.Resources>
+<!-- Global Button Style: Defines the blue rounded look and hover effects -->
         <Style x:Key="ModernButton" TargetType="Button">
             <Setter Property="Background" Value="#4A90E2"/>
             <Setter Property="Foreground" Value="White"/>
@@ -31,6 +32,7 @@
             </Style.Triggers>
         </Style>
 
+<!-- Input Field Style: Applied to TextBoxes and PasswordBoxes -->
         <Style x:Key="ModernInput" TargetType="Control">
             <Setter Property="Height" Value="35"/>
             <Setter Property="VerticalContentAlignment" Value="Center"/>
@@ -53,6 +55,7 @@
             </Setter>
         </Style>
 
+<!-- Clean DataGrid Style: Removes standard bulky borders -->
         <Style TargetType="DataGrid">
             <Setter Property="Background" Value="White"/>
             <Setter Property="BorderThickness" Value="0"/>
@@ -89,6 +92,7 @@
             </StackPanel>
         </Border>
 
+<!-- SECTION: Main Dashboard (Visible after login) -->
         <Grid x:Name="MainPlannerPanel" Visibility="Collapsed">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="300"/>
@@ -140,6 +144,7 @@
                 </StackPanel>
             </Border>
 
+<!-- Content Area: Task List Display -->
             <Grid Grid.Column="1" Margin="25">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
